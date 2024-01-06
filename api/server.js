@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import app from "./app.js";
-import runDbMigrations from "./db/migrations";
+import runDbMigrations from "./db/migrations/index.js";
 
 async function start() {
   await runDbMigrations();
