@@ -1,6 +1,6 @@
 import { Router } from "express";
-import reservationRepository from "../controllers/reservation-repository";
-import sendEmail from "../utils/send-email";
+import reservationRepository from "../controllers/reservation-repository.js";
+import sendEmail from "../utils/send-email.js";
 
 const router = Router();
 

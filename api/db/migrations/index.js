@@ -1,11 +1,11 @@
 import db from "..";
-import createAdminsTable from "./create-admins-table";
-import createCandidatesTable from "./create-candidates-table";
-import createReservationsTable from "./create-reservations-table";
-import createEthioDalalasTable from "./create-ethio-dalalas";
-import createEthioSubDalalasTable from "./create-ethio-sub-dalalas";
-import createSaudiDalalasTable from "./create-saudi-dalalas";
-import createSaudiSubDalalasTable from "./create-saudi-sub-dalalas";
+import createAdminsTable from "./create-admins-table.js";
+import createCandidatesTable from "./create-candidates-table.js";
+import createReservationsTable from "./create-reservations-table.js";
+import createEthioDalalasTable from "./create-ethio-dalalas.js";
+import createEthioSubDalalasTable from "./create-ethio-sub-dalalas.js";
+import createSaudiDalalasTable from "./create-saudi-dalalas.js";
+import createSaudiSubDalalasTable from "./create-saudi-sub-dalalas.js";
 
 const runDbMigrations = async () => {
   console.log("BEGIN DB MIGRATION");

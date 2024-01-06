@@ -1,7 +1,7 @@
 import { Router } from "express";
 import bcrypt from "bcrypt";
-import adminRepository from "../controllers/admin-repository";
-import generateToken from "../utils/generate-token";
+import adminRepository from "../controllers/admin-repository.js";
+import generateToken from "../utils/generate-token.js";
 const router = Router();
 
 router.post("/login", async (req, res) => {

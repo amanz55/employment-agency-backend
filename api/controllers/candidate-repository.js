@@ -1,5 +1,5 @@
 import db from "../db";
-import sendEmail from "../utils/send-email";
+import sendEmail from "../utils/send-email.js";
 
 const createCandidate = async ({
   years_of_experience_abroad,

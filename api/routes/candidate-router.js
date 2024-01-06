@@ -1,5 +1,5 @@
 import { Router } from "express";
-import candidateRepository from "../controllers/candidate-repository";
+import candidateRepository from "../controllers/candidate-repository.js";
 
 const router = Router();
 

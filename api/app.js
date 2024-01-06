@@ -2,9 +2,9 @@ import express from "express";
 import cors from "cors";
 // import cookieParser from "cookie-parser";
 
-import candidateRouter from "./routes/candidate-router";
-import adminRouter from "./routes/admin-router";
-import reservationRouter from "./routes/reservation-router";
+import candidateRouter from "./routes/candidate-router.js";
+import adminRouter from "./routes/admin-router.js";
+import reservationRouter from "./routes/reservation-router.js";
 
 const app = express();
 app.use(express.json());

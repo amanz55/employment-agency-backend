@@ -1,5 +1,5 @@
 import db from "../db";
-import hashPassword from "../utils/hash-password";
+import hashPassword from "../utils/hash-password.js";
 const createAdmin = async ({
   first_name,
   last_name,
